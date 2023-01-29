@@ -78,7 +78,6 @@ body {
 
 .load-more {
   height: 35px;
-  background-color: #566aff;
   border: none;
   border-radius: 3px;
   justify-content: center;
@@ -87,5 +86,5 @@ body {
   padding: 15px;
   font-size: 22px;
   display: flex;
-  box-shadow: 0 5px 13px #566aff;
+  cursor: pointer;
 }
