@@ -38,7 +38,7 @@ function imageSearch(event) {
         lightbox.refresh();
         Notify.success(`Hooray! We found ${galleryArray.totalHits} images.`);
         
-        if (galleryArray.totalHits / totalPages > 1) {
+        if (galleryArray.totalHits / totalPages > 40) {
            loadMoreButton.classList.remove("hide"); 
         }
         page += 1;
