@@ -75,3 +75,17 @@ body {
   background-size: contain;
   display: inline-block;
 }
+
+.load-more {
+  height: 35px;
+  background-color: #566aff;
+  border: none;
+  border-radius: 3px;
+  justify-content: center;
+  align-items: center;
+  margin: 30px auto;
+  padding: 15px;
+  font-size: 22px;
+  display: flex;
+  box-shadow: 0 5px 13px #566aff;
+}
