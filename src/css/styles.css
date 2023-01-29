@@ -40,8 +40,9 @@ body {
 
 .gallery {
   flex-wrap: wrap;
-  gap: 10px;
-  padding-top: 10px;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 30px;
   display: flex;
 }
 
